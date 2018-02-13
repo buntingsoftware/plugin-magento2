@@ -1,0 +1,21 @@
+{
+  "name": "bunting/personalisation-m2",
+  "description": "N/A",
+  "require": {
+    "php": ">=5.5.0",
+    "bunting/core-m2": "1.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bunting\\Personalisation\\": ""
+    }
+  }
+}
