@@ -3,10 +3,10 @@
   "description": "Bunting's suite of machine learning tools boost conversions by serving personalized content to visitors across your site.",
   "require": {
     "php": ">=5.5.0",
-    "bunting/core-m2": "1.1.1"
+    "bunting/core-m2": "1.1.2"
   },
   "type": "magento2-module",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": [
     "MIT"
   ],
