@@ -9,7 +9,7 @@ From the moment you plug it into your site, Bunting learns about your visitors a
 * Go to your linux box that has your m2 installation on and remove/uninstall any previous Bunting packages.
 * Run `composer require bunting/personalisation-m2` (Notes 1 & 2)
 * Run `composer install`
-* Once done, flush your m2 caches then visit System > Web installation > Modules > Enable the Bunting plugins.   
+* Once done, flush your m2 caches then visit `System > Web Setup Wizard > Module Manager > Enable` the Bunting plugins.   
 
 1. This will take a few minutes and look like it's hanged, leave it a while!).
 2. If you're on Docker (for instance if you installed [this](https://github.com/buntingsoftware/docker-magento2]) then run `docker exec -it docker-magento2_web_1 bash  YOUR_COMMAND` to execute inside the container.
