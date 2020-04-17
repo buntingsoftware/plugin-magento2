@@ -6,10 +6,17 @@ From the moment you plug it into your site, Bunting learns about your visitors a
 
 ## Installation
 
-This module uses composer for installation, simply add "bunting/personalisation-m2" to the `requires` section of your composer.json file and run `composer install`.
+* Go to your linux box that has your m2 installation on and remove/uninstall any previous Bunting packages.
+* Run `composer require bunting/personalisation-m2` (Notes 1 & 2)
+* Run `composer install`
+* Once done, flush your m2 caches then visit System > Web installation > Modules > Enable the Bunting plugins.   
 
-After creating an account with Bunting through the module (or logging in), the cache must be for the Javascript to be injected in to your website.
+1. This will take a few minutes and look like it's hanged, leave it a while!).
+2. If you're on Docker (for instance if you installed [this](https://github.com/buntingsoftware/docker-magento2]) then run `docker exec -it docker-magento2_web_1 bash  YOUR_COMMAND` to execute inside the container.
 
 ## Support
 
-Module version support may be found [on the Bunting Core package](https://bitbucket.org/bunting-software/bunting-magento-2-core)
+* Officially supports PHP 5.5+ and PHP 7.x, with support for Magento version 2.0+.
+* Main repo may be found @ https://bitbucket.org/bunting-software/bunting-magento-2-core
+* Package is distributed @ https://packagist.org/packages/bunting/personalisation-m2
+
